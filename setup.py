@@ -8,6 +8,6 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
         "scikit-learn==0.22.1",
-        "pandas==1.0.1"
+        "pandas"
     ]
 )
