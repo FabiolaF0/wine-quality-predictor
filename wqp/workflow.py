@@ -1,9 +1,9 @@
 import sys
 import logging
 
-from wqp.ml import build_wine_predictor_model
-from wqp.evaluation import compute_model_metrics
-from wqp.data_access import fetch_csv_data, build_train_test_sets
+from ml import build_wine_predictor_model
+from evaluation import compute_model_metrics
+from data_access import fetch_csv_data, build_train_test_sets
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger('wqp.main')
